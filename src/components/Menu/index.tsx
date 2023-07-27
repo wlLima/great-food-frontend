@@ -1,99 +1,149 @@
 'use client'
-import { MdOutlineMenu } from "react-icons/md";
-import { MdMenuOpen } from "react-icons/md";
-import { MdAccountCircle } from "react-icons/md";
 import { useEffect, useState } from "react";
+import { MdPersonPin } from "react-icons/md";
+import { MdMenu } from "react-icons/md";
+import { MdClose } from "react-icons/md";
+import { MdOutlineHome } from "react-icons/md";
+import { MdOutlineImage } from "react-icons/md";
+import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { MdInfoOutline } from "react-icons/md";
 
-export default function Menu(){
 
-  const [sideMenu, setSideMenu] = useState(false);
+export default function Menu() {
 
-  useEffect(()=>{
+  const [navbarTheme, setNavbarTheme] = useState(false)
+  const [sideMenu, setSideMenu] = useState(false)
+
+  const changeNavbarState = () => {
+    window.scrollY >= 10 ? setNavbarTheme(true) : setNavbarTheme(false)
+  }
+
+  const changeNavbarTheme = () => {
+
+    const menuWrapper = document.getElementById('wrapper')
+
+    if (navbarTheme === true) {
+      menuWrapper?.classList.add('menu-wrapper-on')
+      menuWrapper?.classList.remove('menu-wrapper-off')
+    } else {
+      menuWrapper?.classList.add('menu-wrapper-off')
+      menuWrapper?.classList.remove('menu-wrapper-on')
+    }
+
+  }
+
+  const changeNavbarMode = () => {
     const wrapper = document.getElementById('wrapperSideMenu')
 
-    if(sideMenu === true){
+    if (sideMenu === true) {
       wrapper?.classList.remove('hidden')
-    }else{
+    } else {
       wrapper?.classList.add('hidden')
     }
 
-  },[sideMenu])
-
-  function toggleSideMenu(){
-    setSideMenu(!sideMenu)
   }
 
-    return(
-      <>
-       <header className='flex flex-col justify-center bg-orange-400 shadow-md'>
+  useEffect(() => {
 
-          <div className="flex p-2 justify-evenly gap-x-20 md:gap-x-32 w-full">
+    changeNavbarTheme()
+    changeNavbarMode()
 
-            <div className="min-w-14">
-                <a href="/">
-                  <img src="/logo-96.png" alt="Logo do projeto" className='w-14 h-14' />
-                </a>
-            </div>
+  }, [navbarTheme, sideMenu])
 
-            <ul className="md:flex md:justify-end md:p-3 md:gap-3 text-white md:items-center hidden">
-             <li>
-               <a href="/" className="hover:opacity-80">Início</a>
-             </li>
-             <li>
-               <a href="#" className="hover:opacity-80">Cardápio</a>
-             </li>
-             <li>
-               <a href="#" className="hover:opacity-80">Sobre</a>
-             </li>
-            </ul>
+  window.addEventListener('scroll', changeNavbarState)
 
-            <div className="md:flex md:items-center md:gap-x-2 text-white text-center md:min-w-32 hover:opacity-80 hidden">
-             <MdAccountCircle className="text-xl" />
-             <a href="#" className="gap-y-0 min-w-[109px]">
-               Fazer Login
-               <p className="text-xs opacity-70">ou Registrar</p>
-             </a>
-            </div>
-          
-            <a onClick={toggleSideMenu} className="flex items-center cursor-pointer md:hidden">
-              <div className="text-white">
-                {
-                  sideMenu === true ? ( <MdMenuOpen className="text-5xl" /> ) : (<MdOutlineMenu className="text-5xl" />)   
-                }
-              </div>
+  return (
+    <>
+      <header className="fixed top-0 left-0 right-0">
+        <div id="wrapper" className="flex justify-around p-7 text-sm menu-wrapper-off uppercase items-center">
+
+          <div>
+            <a href="#">
+              <h1 className="text-2xl font-bold">GreatFood</h1>
             </a>
-            
           </div>
 
-          <div id="wrapperSideMenu" className="absolute left-0 top-[4.5rem] bg-orange-400 p-10 w-1/2 h-side-menu hidden shadow-md md:hidden">
-
-            <div className="flex flex-col h-full">
-
-              <ul className="flex flex-col h-2/4 justify-start p-3 gap-8 text-white items-center">
-                <li>
-                  <a href="/" className="hover:opacity-80">Início</a>
+          <div className="flex">
+            <nav className="md:hidden">
+              <ul className="flex items-center gap-10">
+                <li className="hover:opacity-60">
+                  <a href="#">Início</a>
                 </li>
-                <li>
-                  <a href="#" className="hover:opacity-80">Cardápio</a>
+                <li className="hover:opacity-60">
+                  <a href="#">Cardápio</a>
                 </li>
-                <li>
-                  <a href="#" className="hover:opacity-80">Sobre</a>
+                <li className="hover:opacity-60">
+                  <a href="#">Galeria</a>
+                </li>
+                <li className="hover:opacity-60">
+                  <a href="#">Sobre</a>
+                </li>
+                <li className="ml-5 hover:opacity-60">
+                  <a href="#">
+                    <MdPersonPin className="text-2xl" />
+                  </a>
                 </li>
               </ul>
-       
-              <div className="flex items-end gap-x-2 text-white text-center min-w-32 hover:opacity-80 justify-center grow">
-                <MdAccountCircle className="text-xl" />
-                <a href="#" className="gap-y-0 min-w-[109px]">
-                  Fazer Login
-                  <p className="text-xs opacity-70">ou Registrar</p>
-                </a>
-              </div>
+            </nav>
 
+            <div>
+              <div className="md:flex items-center flex-col hidden" onClick={() => setSideMenu(!sideMenu)}>
+                <a className="flex gap-1 items-center cursor-pointer" >
+                  {
+                    sideMenu === true ? (<MdClose className="text-2xl flex flex-row" />) : (<MdMenu className="text-2xl flex flex-row" />)
+                  }
+                  <span>Menu</span>
+                </a>
+
+                <div id="wrapperSideMenu" className="absolute top-[88px] right-12 menu-wrapper-on w-80">
+                  <nav>
+                    <ul className="divide-y">
+                      <li className="hover:opacity-50">
+                        <a href="https://google.com" className="block">
+                          <div className="flex gap-2 items-center px-6 py-3">
+                            <MdOutlineHome className="text-lg" />
+                            Início
+                          </div>
+                        </a>
+                      </li>
+                      <li className="hover:opacity-50">
+                        <a href="https://google.com" className="block">
+                          <div className="flex gap-2 items-center px-6 py-3">
+                            <MdOutlineRestaurantMenu className="text-lg" />
+                            Cardápio
+                          </div>
+                        </a>
+                      </li>
+                      <li className="hover:opacity-50">
+                        <a href="https://google.com" className="block">
+                          <div className="flex gap-2 items-center px-6 py-3">
+                            <MdOutlineImage className="text-lg" />
+                            Galeria
+                          </div>
+                        </a>
+                      </li>
+                      <li className="hover:opacity-50">
+                        <a href="https://google.com" className="block">
+                          <div className="flex gap-2 items-center px-6 py-3">
+                            <MdInfoOutline className="text-lg" />
+                            Sobre
+                          </div>
+                        </a>
+                      </li>
+
+                    </ul>
+                  </nav>
+                </div>
+
+              </div>
             </div>
 
           </div>
 
-        </header> 
-      </>
-    )
+
+
+        </div>
+      </header>
+    </>
+  )
 }

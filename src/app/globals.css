@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .menu-wrapper-on {
+    @apply bg-white text-black;
+  }
+
+  .menu-wrapper-off {
+    @apply bg-transparent text-white;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 0, 0, 0;
