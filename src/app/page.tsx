@@ -107,63 +107,6 @@ export default function Home() {
 
         </div>
 
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
-        <div>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vitae necessitatibus eaque, adipisci voluptate quaerat repellendus optio perspiciatis ducimus autem repellat deleniti excepturi dicta, corrupti sint delectus? Sit, rerum doloribus.
-        </div>
       </main >
       <Footer />
     </div >
