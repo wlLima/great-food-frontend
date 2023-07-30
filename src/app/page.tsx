@@ -8,8 +8,8 @@ export default function Home() {
       <Menu />
       <Carousel />
       <main className="flex flex-col items-center justify-between px-24 py-12 sm:px-8 h-full">
-        <div className="flex md:flex-col">
-          <img src="/hamburguers.jpg" alt="prato com hamburguers e batata" className="w-1/2 md:w-full" />
+        <div className="flex lg:flex-col">
+          <img src="/hamburguers.jpg" alt="prato com hamburguers e batata" className="w-1/2 lg:w-full" />
           <div className="flex flex-col justify-center gap-5 bg-slate-50 text-center p-5 items-center">
             <h1 className=" text-3xl font-bold">Sobre nós</h1>
             <p className=" text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae debitis eum maiores architecto nesciunt porro molestiae, voluptatibus reiciendis facere natus, inventore aut necessitatibus! Velit nobis delectus, assumenda non quaerat deserunt.</p>
@@ -27,7 +27,7 @@ export default function Home() {
 
             <div className="flex h-full gap-4 p-5 border-b border-dashed">
               <div className="w-1/2 rounded-full">
-                <img src="/hamburguer1.jpg" alt="teste" className="w-32 h-32 rounded-full" />
+                <img src="/hamburguer1.jpg" alt="teste" className="object-cover w-32 h-32 rounded-full" />
               </div>
               <div className="w-64 flex flex-col justify-evenly">
                 <div className="font-semibold">
@@ -45,7 +45,7 @@ export default function Home() {
 
             <div className="flex h-full gap-4 p-5 border-b border-dashed">
               <div className="w-1/2 rounded-full">
-                <img src="/hamburguer1.jpg" alt="teste" className=" w-32 h-32 rounded-full" />
+                <img src="/hamburguer1.jpg" alt="teste" className="object-cover w-32 h-32 rounded-full" />
               </div>
               <div className="w-64 flex flex-col justify-evenly">
                 <div className="font-semibold">
@@ -63,7 +63,7 @@ export default function Home() {
 
             <div className="flex h-full gap-4 p-5 border-b border-dashed">
               <div className="w-1/2 rounded-full">
-                <img src="/hamburguer1.jpg" alt="teste" className=" w-32 h-32 rounded-full" />
+                <img src="/hamburguer1.jpg" alt="teste" className="object-cover w-32 h-32 rounded-full" />
               </div>
               <div className="w-64 flex flex-col justify-evenly">
                 <div className="font-semibold">
@@ -81,7 +81,7 @@ export default function Home() {
 
             <div className="flex h-full gap-4 p-5 border-b border-dashed">
               <div className="w-1/2 rounded-full">
-                <img src="/hamburguer1.jpg" alt="teste" className=" w-32 h-32 rounded-full" />
+                <img src="/hamburguer1.jpg" alt="teste" className="object-cover w-32 h-32 rounded-full" />
               </div>
               <div className="w-64 flex flex-col justify-evenly">
                 <div className="font-semibold">
