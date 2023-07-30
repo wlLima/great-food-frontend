@@ -67,10 +67,10 @@ export default function Menu() {
             <nav className="md:hidden">
               <ul className="flex items-center gap-10">
                 <li className="hover:opacity-60">
-                  <a href="#">Início</a>
+                  <a href="/">Início</a>
                 </li>
                 <li className="hover:opacity-60">
-                  <a href="#">Cardápio</a>
+                  <a href="/cardapio">Cardápio</a>
                 </li>
                 <li className="hover:opacity-60">
                   <a href="#">Galeria</a>
@@ -99,7 +99,7 @@ export default function Menu() {
                   <nav>
                     <ul className="divide-y">
                       <li className="hover:opacity-50">
-                        <a href="https://google.com" className="block">
+                        <a href="/" className="block">
                           <div className="flex gap-2 items-center px-6 py-3">
                             <MdOutlineHome className="text-lg" />
                             Início
@@ -107,7 +107,7 @@ export default function Menu() {
                         </a>
                       </li>
                       <li className="hover:opacity-50">
-                        <a href="https://google.com" className="block">
+                        <a href="/cardapio" className="block">
                           <div className="flex gap-2 items-center px-6 py-3">
                             <MdOutlineRestaurantMenu className="text-lg" />
                             Cardápio

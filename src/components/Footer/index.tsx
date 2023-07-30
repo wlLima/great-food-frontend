@@ -53,7 +53,7 @@ export default function FooterWithSocialMediaIcons() {
           />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon
-              href="#"
+              href="https://www.linkedin.com/in/wllima/"
               icon={BsLinkedin}
             />
             <Footer.Icon
@@ -65,7 +65,7 @@ export default function FooterWithSocialMediaIcons() {
               icon={BsTwitter}
             />
             <Footer.Icon
-              href="#"
+              href="https://github.com/wlLima"
               icon={BsGithub}
             />
 
