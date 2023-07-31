@@ -115,7 +115,7 @@ export default function Menu() {
                         </a>
                       </li>
                       <li className="hover:opacity-50">
-                        <a href="https://google.com" className="block">
+                        <a href="#" className="block">
                           <div className="flex gap-2 items-center px-6 py-3">
                             <MdOutlineImage className="text-lg" />
                             Galeria
@@ -123,7 +123,7 @@ export default function Menu() {
                         </a>
                       </li>
                       <li className="hover:opacity-50">
-                        <a href="https://google.com" className="block">
+                        <a href="#" className="block">
                           <div className="flex gap-2 items-center px-6 py-3">
                             <MdInfoOutline className="text-lg" />
                             Sobre

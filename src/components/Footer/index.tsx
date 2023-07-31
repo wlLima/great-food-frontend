@@ -1,7 +1,7 @@
 'use client';
 
 import { Footer } from 'flowbite-react';
-import { BsFacebook, BsGithub, BsInstagram, BsTwitter, BsLinkedin } from 'react-icons/bs';
+import { BsGithub, BsInstagram, BsTwitter, BsLinkedin } from 'react-icons/bs';
 
 export default function FooterWithSocialMediaIcons() {
   return (
@@ -17,17 +17,6 @@ export default function FooterWithSocialMediaIcons() {
                 </Footer.Link>
                 <Footer.Link href="#">
                   Tailwind CSS
-                </Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              <Footer.Title title="Follow us" />
-              <Footer.LinkGroup col>
-                <Footer.Link href="#">
-                  Github
-                </Footer.Link>
-                <Footer.Link href="#">
-                  Discord
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
