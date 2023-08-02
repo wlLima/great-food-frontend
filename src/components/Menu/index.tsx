@@ -76,11 +76,12 @@ export default function Menu() {
                   <a href="/galeria">Galeria</a>
                 </li>
                 <li className="hover:opacity-60">
-                  <a href="#">Sobre</a>
+                  <a href="/sobre">Sobre</a>
                 </li>
                 <li className="ml-5 hover:opacity-60">
-                  <a href="#">
+                  <a href="/login" className="flex gap-1 items-center">
                     <MdPersonPin className="text-2xl" />
+                    Fazer Login
                   </a>
                 </li>
               </ul>
@@ -123,10 +124,19 @@ export default function Menu() {
                         </a>
                       </li>
                       <li className="hover:opacity-50">
-                        <a href="#" className="block">
+                        <a href="/sobre" className="block">
                           <div className="flex gap-2 items-center px-6 py-3">
                             <MdInfoOutline className="text-lg" />
                             Sobre
+                          </div>
+                        </a>
+                      </li>
+
+                      <li className="hover:opacity-50">
+                        <a href="/login" className="block">
+                          <div className="flex gap-2 items-center px-6 py-3">
+                            <MdPersonPin className="text-lg" />
+                            Fazer Login
                           </div>
                         </a>
                       </li>

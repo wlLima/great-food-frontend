@@ -1,7 +1,6 @@
 'use client'
 import Footer from "@/components/Footer";
 import Menu from "@/components/Menu";
-import { MdAdd, MdRemove, MdAddShoppingCart } from "react-icons/md";
 
 export default function galeria() {
 
@@ -17,12 +16,57 @@ export default function galeria() {
       <div className="my-10 mx-10">
         <div className="flex flex-col my-20">
 
-          <div className="mx-20 flex">
+          <div className="mx-20 flex gap-4 flex-wrap justify-center">
 
 
             <div className=" border p-2">
               <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
             </div>
+
+            <div className=" border p-2">
+              <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
+            </div>
+
+            <div className=" border p-2">
+              <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
+            </div>
+
+            <div className=" border p-2">
+              <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
+            </div>
+
+            <div className=" border p-2">
+              <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
+            </div>
+
+            <div className=" border p-2">
+              <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
+            </div>
+
+            <div className=" border p-2">
+              <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
+            </div>
+
+            <div className=" border p-2">
+              <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
+            </div>
+
+            <div className=" border p-2">
+              <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
+            </div>
+
+            <div className=" border p-2">
+              <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
+            </div>
+
+            <div className=" border p-2">
+              <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
+            </div>
+
+            <div className=" border p-2">
+              <img src="hamburguer1.jpg" alt="...." className="w-60 hover:scale-125 transition-transform" />
+            </div>
+
 
 
           </div>

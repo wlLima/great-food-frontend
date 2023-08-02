@@ -13,7 +13,7 @@ export default function Home() {
           <div className="flex flex-col justify-center gap-5 bg-slate-50 text-center p-5 items-center">
             <h1 className=" text-3xl font-bold">Sobre nós</h1>
             <p className=" text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae debitis eum maiores architecto nesciunt porro molestiae, voluptatibus reiciendis facere natus, inventore aut necessitatibus! Velit nobis delectus, assumenda non quaerat deserunt.</p>
-            <button className=" bg-rose-600 p-3 text-white rounded-full w-56 hover:opacity-80 transition-opacity">Continue Lendo</button>
+            <a href="/sobre" className="flex justify-center bg-rose-600 p-3 text-white rounded-full w-56 hover:opacity-80 transition-opacity cursor-pointer">Continue Lendo</a>
           </div>
         </div>
 
@@ -100,9 +100,9 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-10">
-            <button className=" bg-rose-600 text-white rounded-full p-3 w-56 hover:opacity-80 transition-opacity">
+            <a href="/cardapio" className=" flex justify-center bg-rose-600 text-white rounded-full p-3 w-56 hover:opacity-80 transition-opacity cursor-pointer">
               Ver todos os produtos
-            </button>
+            </a>
           </div>
 
         </div>
