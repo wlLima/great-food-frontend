@@ -1,4 +1,5 @@
 'use client'
+import CardProduto from "@/components/CardProduto";
 import Footer from "@/components/Footer";
 import Menu from "@/components/Menu";
 import { MdAdd, MdRemove, MdAddShoppingCart } from "react-icons/md";
@@ -15,44 +16,47 @@ export default function cardapio() {
       </div>
 
       <div className="my-10 mx-10">
-        <div className="flex flex-col my-20">
+        <div className="flex flex-col items-center justify-center my-20">
 
-          <div className="grid grid-cols-2 gap-8 lg:grid-cols-1">
+          <div className="flex items-center justify-center mb-10 mx-96 border rounded-full lg:border-transparent px-8 py-4">
+            <ul className="flex gap-5 lg:gap-1 md:flex-col">
+              <li>
+                <a className="flex items-center py-2 px-5 hover:shadow-xl border border-transparent hover:border-gray-100 hover:bg-rose-600 hover:text-white rounded-lg cursor-pointer transition-all">Hamburguers</a>
+              </li>
+              <li>
+                <a className="flex items-center py-2 px-5 hover:shadow-xl border border-transparent hover:border-gray-100 hover:bg-rose-600 hover:text-white rounded-lg cursor-pointer transition-all">Pizzas</a>
+              </li>
+              <li>
+                <a className="flex items-center py-2 px-5 hover:shadow-xl border border-transparent hover:border-gray-100 hover:bg-rose-600 hover:text-white rounded-lg cursor-pointer transition-all">Carnes</a>
+              </li>
+              <li>
+                <a className="flex items-center py-2 px-5 hover:shadow-xl border border-transparent hover:border-gray-100 hover:bg-rose-600 hover:text-white rounded-lg cursor-pointer transition-all">Bebidas</a>
+              </li>
+              <li>
+                <a className="flex items-center py-2 px-5 hover:shadow-xl border border-transparent hover:border-gray-100 hover:bg-rose-600 hover:text-white rounded-lg cursor-pointer transition-all">Sobremesas</a>
+              </li>
+              <li>
+                <a className="flex items-center py-2 px-5 hover:shadow-xl border border-transparent hover:border-gray-100 hover:bg-rose-600 hover:text-white rounded-lg cursor-pointer transition-all">Vegetarianos</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div className="flex flex-wrap items-center justify-center gap-8">
 
             {/* Replicar este trecho a partir de uma lista de produtos ('trecho já testado, precisando apenas de alguns retoques') */}
-            <div className="flex h-full gap-4 p-5 border-b border-dashed">
-              <div className="w-1/2 rounded-full">
-                <img src="/hamburguer1.jpg" alt="teste" className="object-cover w-32 h-32 rounded-full" />
-              </div>
-              <div className="w-64 flex flex-col justify-start gap-2">
-                <div className="font-semibold">
-                  Nome do produto
-                </div>
-                <div className="opacity-50">
-                  Ingredientes
-                </div>
-              </div>
-              <div className="w-1/2 flex flex-col items-center justify-center gap-2">
-                <div>
-                  R$ 28,60
-                </div>
-                <div className="flex items-center gap-1">
-                  <button>
-                    <MdAdd />
-                  </button>
-                  <input type="text" name="qtdItem" value={"1"} id="qtdItem" className="w-9 h-[30px]" />
-                  <button>
-                    <MdRemove />
-                  </button>
-                </div>
-                <div>
-                  <button className="text-white bg-rose-600 p-1 rounded-full w-32 flex items-center justify-center">
-                    <MdAddShoppingCart />
-                    Adicionar
-                  </button>
-                </div>
-              </div>
-            </div>
+
+            <CardProduto id={"1"} product={"Hamburguer de Siri"} value={"28,00"} amount={"2"} ingredients={"Ingredientes"} />
+            <CardProduto id={"1"} product={"Hamburguer de Siri"} value={"28,00"} amount={"2"} ingredients={"Ingredientes"} />
+            <CardProduto id={"1"} product={"Hamburguer de Siri"} value={"28,00"} amount={"2"} ingredients={"Ingredientes"} />
+            <CardProduto id={"1"} product={"Hamburguer de Siri"} value={"28,00"} amount={"2"} ingredients={"Ingredientes"} />
+            <CardProduto id={"1"} product={"Hamburguer de Siri"} value={"28,00"} amount={"2"} ingredients={"Ingredientes"} />
+            <CardProduto id={"1"} product={"Hamburguer de Siri"} value={"28,00"} amount={"2"} ingredients={"Ingredientes"} />
+            <CardProduto id={"1"} product={"Hamburguer de Siri"} value={"28,00"} amount={"2"} ingredients={"Ingredientes"} />
+            <CardProduto id={"1"} product={"Hamburguer de Siri"} value={"28,00"} amount={"2"} ingredients={"Ingredientes"} />
+            <CardProduto id={"1"} product={"Hamburguer de Siri"} value={"28,00"} amount={"2"} ingredients={"Ingredientes"} />
+            <CardProduto id={"1"} product={"Hamburguer de Siri"} value={"28,00"} amount={"2"} ingredients={"Ingredientes"} />
+
 
 
           </div>
