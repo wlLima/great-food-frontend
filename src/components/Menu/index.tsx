@@ -67,20 +67,21 @@ export default function Menu() {
             <nav className="md:hidden">
               <ul className="flex items-center gap-10">
                 <li className="hover:opacity-60">
-                  <a href="#">Início</a>
+                  <a href="/">Início</a>
                 </li>
                 <li className="hover:opacity-60">
-                  <a href="#">Cardápio</a>
+                  <a href="/cardapio">Cardápio</a>
                 </li>
                 <li className="hover:opacity-60">
-                  <a href="#">Galeria</a>
+                  <a href="/galeria">Galeria</a>
                 </li>
                 <li className="hover:opacity-60">
-                  <a href="#">Sobre</a>
+                  <a href="/sobre">Sobre</a>
                 </li>
                 <li className="ml-5 hover:opacity-60">
-                  <a href="#">
+                  <a href="/login" className="flex gap-1 items-center">
                     <MdPersonPin className="text-2xl" />
+                    Fazer Login
                   </a>
                 </li>
               </ul>
@@ -99,7 +100,7 @@ export default function Menu() {
                   <nav>
                     <ul className="divide-y">
                       <li className="hover:opacity-50">
-                        <a href="https://google.com" className="block">
+                        <a href="/" className="block">
                           <div className="flex gap-2 items-center px-6 py-3">
                             <MdOutlineHome className="text-lg" />
                             Início
@@ -107,7 +108,7 @@ export default function Menu() {
                         </a>
                       </li>
                       <li className="hover:opacity-50">
-                        <a href="https://google.com" className="block">
+                        <a href="/cardapio" className="block">
                           <div className="flex gap-2 items-center px-6 py-3">
                             <MdOutlineRestaurantMenu className="text-lg" />
                             Cardápio
@@ -115,7 +116,7 @@ export default function Menu() {
                         </a>
                       </li>
                       <li className="hover:opacity-50">
-                        <a href="https://google.com" className="block">
+                        <a href="/galeria" className="block">
                           <div className="flex gap-2 items-center px-6 py-3">
                             <MdOutlineImage className="text-lg" />
                             Galeria
@@ -123,10 +124,19 @@ export default function Menu() {
                         </a>
                       </li>
                       <li className="hover:opacity-50">
-                        <a href="https://google.com" className="block">
+                        <a href="/sobre" className="block">
                           <div className="flex gap-2 items-center px-6 py-3">
                             <MdInfoOutline className="text-lg" />
                             Sobre
+                          </div>
+                        </a>
+                      </li>
+
+                      <li className="hover:opacity-50">
+                        <a href="/login" className="block">
+                          <div className="flex gap-2 items-center px-6 py-3">
+                            <MdPersonPin className="text-lg" />
+                            Fazer Login
                           </div>
                         </a>
                       </li>
