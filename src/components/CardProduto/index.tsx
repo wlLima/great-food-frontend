@@ -47,13 +47,13 @@ export default function CardProduto({ id, product, value, amount = "1", ingredie
           <div>
             {value}
           </div>
-          <div className="flex items-center gap-1">
-            <button onClick={() => handleQuantity("sum")}>
-              <MdAdd />
-            </button>
-            <input type="text" name="qtdItem" value={amountItem} id="qtdItem" className="w-9 h-[30px]" />
-            <button onClick={() => handleQuantity("sub")}>
+          <div className="flex items-center">
+            <button onClick={() => handleQuantity("sub")} className="border rounded-tl-lg w-9 h-[30px] flex justify-center items-center rounded-bl-lg border-gray-400 bg-white">
               <MdRemove />
+            </button>
+            <input type="text" name="qtdItem" value={amountItem} id="qtdItem" className="w-9 h-[30px] border-x-transparent border-gray-400" />
+            <button onClick={() => handleQuantity("sum")} className="border rounded-tr-lg w-9 h-[30px] flex justify-center items-center rounded-br-lg border-gray-400 bg-white">
+              <MdAdd />
             </button>
           </div>
           <div>
