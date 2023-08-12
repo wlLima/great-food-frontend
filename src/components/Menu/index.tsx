@@ -79,7 +79,7 @@ export default function Menu() {
                   <a href="/sobre">Sobre</a>
                 </li>
                 <li className="ml-5 hover:opacity-60">
-                  <a href="/login" className="flex gap-1 items-center">
+                  <a href="/auth" className="flex gap-1 items-center">
                     <MdPersonPin className="text-2xl" />
                     Fazer Login
                   </a>
@@ -133,7 +133,7 @@ export default function Menu() {
                       </li>
 
                       <li className="hover:opacity-50">
-                        <a href="/login" className="block">
+                        <a href="/auth" className="block">
                           <div className="flex gap-2 items-center px-6 py-3">
                             <MdPersonPin className="text-lg" />
                             Fazer Login
