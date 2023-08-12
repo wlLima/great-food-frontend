@@ -31,7 +31,7 @@ export default function CardProduto({ id, product, value, amount = "1", ingredie
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-96 gap-4 p-5 shadow-lg rounded-lg w-64 hover:bg-slate-100">
+      <div className="flex flex-col justify-center items-center h-96 gap-4 p-1 shadow-lg rounded-lg w-64 hover:bg-slate-100">
         <div className="rounded-full">
           <img src="/hamburguer1.jpg" alt="teste" className="object-cover rounded-md h-full" />
         </div>
