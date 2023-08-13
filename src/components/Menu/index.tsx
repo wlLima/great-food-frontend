@@ -1,13 +1,6 @@
 'use client'
 import { useEffect, useState } from "react";
-import { MdPersonPin } from "react-icons/md";
-import { MdMenu } from "react-icons/md";
-import { MdClose } from "react-icons/md";
-import { MdOutlineHome } from "react-icons/md";
-import { MdOutlineImage } from "react-icons/md";
-import { MdOutlineRestaurantMenu } from "react-icons/md";
-import { MdInfoOutline } from "react-icons/md";
-
+import { MdPersonPin, MdMenu, MdClose, MdOutlineHome, MdOutlineImage, MdOutlineRestaurantMenu, MdInfoOutline } from "react-icons/md";
 
 export default function Menu() {
 
